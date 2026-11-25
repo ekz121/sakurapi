@@ -113,6 +113,8 @@ flutter run -d ID_HP
 
 Ganti `ID_HP` dengan ID dari `flutter devices`. Terminal tetap terbuka: `r` hot reload, `R` hot restart, `q` berhenti. Perubahan plugin atau konfigurasi Android memerlukan berhenti dan run ulang. `unauthorized` berarti izin USB debugging perlu disetujui.
 
+Konfigurasi `kotlin.incremental=false` disertakan agar cache kompilasi Kotlin tidak bermasalah ketika proyek dan cache dependensi berada di drive Windows yang berbeda. Fitur aplikasi tetap sama.
+
 Pratinjau browser opsional:
 
 ```bash
