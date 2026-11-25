@@ -1,0 +1,7 @@
+* text=auto
+android/gradlew text eol=lf
+android/gradlew.bat text eol=crlf
+*.apk binary
+*.jar binary
+*.png binary
+*.wasm binary
